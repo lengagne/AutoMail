@@ -20,9 +20,7 @@
  * OF THIS SOFTWARE.
  */
 
-#include <ods/ods>
-#include <QtCore>
-#include <iostream>
+
 #include "utils.h"
 
 int main(int argc, char *argv[])
@@ -49,8 +47,7 @@ int main(int argc, char *argv[])
         {
             QString fileods(argv[2]);
             QString filetxt(argv[3]);
-			qDebug()<<"fileods = "<< fileods;
-			qDebug()<<"filetxt = "<< filetxt;            
+			do_the_stuff(fileods,filetxt);
             return 1;
         }
 	}

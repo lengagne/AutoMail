@@ -1,0 +1,3 @@
+Hello $FIRSTNAME$ I know that you are $AGE$ years old.
+
+@OBJECT@ "This is a test" @TO@ $EMAIL$ @CC@ lengagne@gmail.com
