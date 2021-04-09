@@ -25,6 +25,7 @@
 #include "Ns.hpp"
 #include "Row.hpp"
 #include "Sheet.hpp"
+#include <cmath>
 
 #include <QDebug>
 #include <QString>
